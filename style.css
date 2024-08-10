@@ -59,27 +59,27 @@ body {
     max-width: 700px;
     color: #f3f3f3;
     padding: 40px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7); /* Darker background */
     border-radius: 15px;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.6); /* Softer shadow */
 }
 
 .hero-text h5 {
     color: #cccccc;
-    font-size: 16px;
+    font-size: 14px; /* Slightly smaller */
     margin-bottom: 10px;
 }
 
 .hero-text h5 span {
     color: #f39c12;
-    font-size: 18px;
+    font-size: 16px; /* Slightly smaller */
 }
 
 .hero-text h1 {
     color: #ffffff;
-    font-size: 3.5rem;
+    font-size: 4rem; /* Larger font size */
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 700; /* Bolder text */
 }
 
 .hero-text p {
@@ -154,5 +154,16 @@ body {
 
     .hero-text p {
         font-size: 16px;
+    }
+}
+
+@media(max-width: 480px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
     }
 }
